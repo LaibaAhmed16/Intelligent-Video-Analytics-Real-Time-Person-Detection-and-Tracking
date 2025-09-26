@@ -5,7 +5,7 @@ This guide explains how to set up and run the YOLOv8 + DeepSORT person tracking 
 
 ---
 
-## ✅ 1. Clone the Repository
+ ✅ 1. Clone the Repository
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
 
