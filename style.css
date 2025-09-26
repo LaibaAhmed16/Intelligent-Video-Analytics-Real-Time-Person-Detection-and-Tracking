@@ -1,0 +1,76 @@
+/* Background gradient */
+.stApp {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* Titles */
+h1, h2, h3 {
+    color: #fbc531 !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar background */
+section[data-testid="stSidebar"] {
+    background: #1e272e;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #fbc531;
+    color: #0b0b0b;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    padding: 0.6em 1.2em;
+    transition: all 0.22s ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+.stButton > button:hover {
+    background-color: #e1b12c;
+    color: #0b0b0b;
+    transform: translateY(-2px);
+}
+
+/* Info/Warning/Success boxes */
+.stAlert {
+    border-radius: 10px;
+    padding: 1em;
+    font-weight: 500;
+}
+
+/* Video frames */
+img {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* File uploader label */
+section[data-testid="stFileUploader"] label {
+    color: #fbc531 !important;
+    font-weight: 600 !important;
+}
+
+/* File uploader inner box text */
+section[data-testid="stFileUploader"] div[role="button"] * {
+    color: black !important;
+}
+
+/* Common widget labels */
+.stCheckbox label, 
+.stRadio label, 
+.stSelectbox label, 
+.stFileUploader label,
+.stCheckbox div, 
+.stRadio div, 
+.stSelectbox div {
+    color: #fbc531 !important;
+    opacity: 1 !important;
+    font-weight: 600 !important;
+}
+
+/* Dropdown text and options */
+select, option, .stSelectbox [data-baseweb="select"] * {
+    color: black !important;
+    opacity: 1 !important;
+}
