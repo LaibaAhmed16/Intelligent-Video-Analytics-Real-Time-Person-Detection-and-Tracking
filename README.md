@@ -1,24 +1,34 @@
 # Intelligent Video Analytics : Real-Time Person Detection and Tracking
 Real-time multi-person tracking system combining YOLOv8 for detection and DeepSORT for identity-preserving tracking. Includes a Streamlit interface for video upload, webcam input, ID selection, and processed video preview.
 
- ✨ Features
+✨ Features
 
-🎥 Video Upload & Webcam Support – Upload .mp4, .avi, .mov files or run live with your webcam.
+Video & Webcam Input
+Upload video files (.mp4, .avi, .mov) or use a live webcam stream for real-time tracking.
 
-🕵️ Person Detection with YOLOv8 – Detects humans in video frames with real-time performance.
+Human Detection (YOLOv8)
+Powered by Ultralytics YOLOv8 for fast and accurate person detection in each frame.
 
-🧭 Multi-Object Tracking (DeepSORT) – Assigns unique IDs to each person and tracks them across frames.
+Multi-Object Tracking (DeepSORT)
+Assigns unique IDs to individuals and tracks them consistently across frames.
 
-🔎 Scan Mode for IDs – Analyze initial frames to collect all detected person IDs before tracking.
+Person ID Scanning
+Automatically scans the first few frames to collect all detected person IDs for selection.
 
-🎯 Track All or Select Specific Person – Option to track everyone in the scene or focus on one chosen ID.
+Flexible Tracking Modes
+Choose to track all detected persons or focus on a specific individual by ID.
 
-🖼️ Annotated Previews – See bounding boxes and IDs overlaid on frames during scanning and tracking.
+Live Annotated Preview
+Displays bounding boxes and person IDs directly on frames during both scanning and tracking.
 
-💾 Save Processed Video – Automatically saves output with tracked persons to .mp4 format.
+Output Video Export
+Saves the processed and annotated video in .mp4 format for later review.
 
-🎨 Custom Streamlit UI Styling – Modern dark theme with styled buttons, alerts, and sidebar.
+Custom Streamlit UI
+Modern dark-themed interface with styled buttons, alerts, and sidebar for an improved user experience.
 
-📊 Progress Indicator – Real-time frame-by-frame processing with a progress bar.
+Progress Feedback
+Real-time progress bar and live frame updates while the video is being processed.
 
-🔄 Reset / Clear Session – One-click reset to restart with a new video or webcam input.
+Session Management
+Reset or clear the current session state with a single click to start fresh with new inputs.
