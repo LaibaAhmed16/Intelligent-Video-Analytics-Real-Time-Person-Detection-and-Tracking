@@ -32,26 +32,26 @@ The app provides an intuitive workflow:
 - **Multi-Object Tracking (DeepSORT)**  
     Assigns unique IDs to individuals and tracks them consistently across frames.  
 
-**Person ID Scanning**  
-Automatically scans the first few frames to collect all detected person IDs for selection.  
+- **Person ID Scanning**  
+   Automatically scans the first few frames to collect all detected person IDs for selection.  
 
-**Flexible Tracking Modes**  
-Choose to track all detected persons or focus on a specific individual by ID.  
+- **Flexible Tracking Modes**  
+    Choose to track all detected persons or focus on a specific individual by ID.  
 
-**Live Annotated Preview**  
-Displays bounding boxes and person IDs directly on frames during both scanning and tracking.  
+- **Live Annotated Preview**  
+    Displays bounding boxes and person IDs directly on frames during both scanning and tracking.  
 
-**Output Video Export**  
-Saves the processed and annotated video in `.mp4` format for later review.  
+- **Output Video Export**  
+    Saves the processed and annotated video in `.mp4` format for later review.  
 
-**Custom Streamlit UI**  
-Modern dark-themed interface with styled buttons, alerts, and sidebar for an improved user experience.  
+- **Custom Streamlit UI**  
+    Modern dark-themed interface with styled buttons, alerts, and sidebar for an improved user experience.  
 
-**Progress Feedback**  
-Real-time progress bar and live frame updates while the video is being processed.  
+- **Progress Feedback**  
+   Real-time progress bar and live frame updates while the video is being processed.  
 
-**Session Management**  
-Reset or clear the current session state with a single click to start fresh with new inputs.  
+- **Session Management**  
+    Reset or clear the current session state with a single click to start fresh with new inputs.  
   
 
 ---
