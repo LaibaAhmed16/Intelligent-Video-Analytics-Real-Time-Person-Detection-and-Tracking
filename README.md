@@ -1,5 +1,6 @@
 # Intelligent Video Analytics : Real-Time Person Detection and Tracking
 Real-time multi-person tracking system combining YOLOv8 for detection and DeepSORT for identity-preserving tracking. Includes a Streamlit interface for video upload, webcam input, ID selection, and processed video preview.This project is an interactive web application for real-time person detection and tracking in videos, built with Streamlit, YOLOv8, and DeepSORT.
+
 https://github.com/user-attachments/assets/4090550f-a164-4b6b-bd9b-59dbb7d5678b
 
 This project is an interactive web application for real-time person detection and tracking in videos, built with **Streamlit**, **YOLOv8**, and **DeepSORT**.
