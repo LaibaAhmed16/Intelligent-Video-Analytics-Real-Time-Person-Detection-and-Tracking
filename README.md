@@ -21,20 +21,6 @@ The app provides an intuitive workflow:
    
 ---
 
-## 💻 Hardware & Model Compatibility
-
-| Platform              | Recommended Model            | GPU Support | Notes                                                                 |
-|-----------------------|------------------------------|-------------|----------------------------------------------------------------------|
-| **CPU-only PC/Laptop** | `yolov8n.pt`                 | ❌          | Works fine (~10–15 FPS, lightweight model optimized for CPUs).        |
-| **Desktop w/ GPU**     | `yolov8s.pt` or `yolov8m.pt` | ✅ CUDA     | Best performance, smoother detection, and higher accuracy.            |
-| **Jetson Nano**        | `yolov8n.pt`                 | ✅ CUDA     | Achieves near real-time performance with lightweight models.          |
-| **Raspberry Pi**       | `yolov8n` (exported to NCNN) | ❌ CPU only | Limited FPS, suitable for demos but not heavy real-time applications. |
-
-⚡ **Default model in this project:** `yolov8n.pt` (fastest & most efficient for general use).  
-📌 *Performance depends on hardware specs, model size, and video resolution.*
-
----
-
 ## 🎨 Features
 
 - **Video & Webcam Input**  
@@ -81,10 +67,19 @@ This tool is useful for:
 
 ---
 
-## ⚡ Model Information
+## 💻 Hardware & Model Compatibility
 
-- By default, the application uses **`yolov8n.pt`**, a lightweight model optimized for **CPU-based systems**, ensuring broad compatibility.  
-- On **GPU-enabled platforms**, larger models (`yolov8s`, `yolov8m`, etc.) can be used for **higher accuracy**.
+| Platform              | Recommended Model            | GPU Support | Notes                                                                 |
+|-----------------------|------------------------------|-------------|----------------------------------------------------------------------|
+| **CPU-only PC/Laptop** | `yolov8n.pt`                 | ❌          | Works fine (~10–15 FPS, lightweight model optimized for CPUs).        |
+| **Desktop w/ GPU**     | `yolov8s.pt` or `yolov8m.pt` | ✅ CUDA     | Best performance, smoother detection, and higher accuracy.            |
+| **Jetson Nano**        | `yolov8n.pt`                 | ✅ CUDA     | Achieves near real-time performance with lightweight models.          |
+| **Raspberry Pi**       | `yolov8n` (exported to NCNN) | ❌ CPU only | Limited FPS, suitable for demos but not heavy real-time applications. |
+
+⚡ **Default model in this project:** `yolov8n.pt` (fastest & most efficient for general use).  
+📌 *Performance depends on hardware specs, model size, and video resolution.*
+
+---
 
   ## 🤖 Models & Architecture
 
