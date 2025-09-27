@@ -23,14 +23,14 @@ The app provides an intuitive workflow:
 
 ## 🎨 Features
 
-**Video & Webcam Input**  
-Upload video files (`.mp4`, `.avi`, `.mov`) or use a live webcam stream for real-time tracking.  
+- **Video & Webcam Input**  
+    Upload video files (`.mp4`, `.avi`, `.mov`) or use a live webcam stream for real-time tracking.  
 
-**Human Detection (YOLOv8)**  
-Powered by Ultralytics YOLOv8 for fast and accurate person detection in each frame.  
+- **Human Detection (YOLOv8)**  
+    Powered by Ultralytics YOLOv8 for fast and accurate person detection in each frame.  
 
-**Multi-Object Tracking (DeepSORT)**  
-Assigns unique IDs to individuals and tracks them consistently across frames.  
+- **Multi-Object Tracking (DeepSORT)**  
+    Assigns unique IDs to individuals and tracks them consistently across frames.  
 
 **Person ID Scanning**  
 Automatically scans the first few frames to collect all detected person IDs for selection.  
