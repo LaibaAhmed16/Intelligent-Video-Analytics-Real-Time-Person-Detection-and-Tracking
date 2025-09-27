@@ -17,7 +17,9 @@ The app provides an intuitive workflow:
 
 1. **Scan Mode** – Analyze the first few frames of a video to automatically detect and collect all person IDs.  
 2. **Selection Mode** – Choose to track all detected individuals or focus on a single person by selecting their ID.  
-3. **Tracking Mode** – Process the entire video, overlay bounding boxes and IDs, and save the annotated output.  
+3. **Tracking Mode** – Process the entire video, overlay bounding boxes and IDs, and save the annotated output.
+   
+---
 
 ## 💻 Hardware & Model Compatibility
 
