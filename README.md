@@ -1,28 +1,50 @@
 # Intelligent Video Analytics : Real-Time Person Detection and Tracking
 Real-time multi-person tracking system combining YOLOv8 for detection and DeepSORT for identity-preserving tracking. Includes a Streamlit interface for video upload, webcam input, ID selection, and processed video preview.This project is an interactive web application for real-time person detection and tracking in videos, built with Streamlit, YOLOv8, and DeepSORT.
-The application allows users to upload a video file or use a live webcam stream to detect and track individuals throughout the video. Using YOLOv8 for object detection and DeepSORT for multi-object tracking, each person in the scene is assigned a unique, persistent ID. This enables the system to follow individuals consistently across frames, even in crowded environments.
+# Real-Time Person Detection and Tracking
+
+This project is an interactive web application for real-time person detection and tracking in videos, built with **Streamlit**, **YOLOv8**, and **DeepSORT**.
+
+The application allows users to:
+- Upload a video file or use a live webcam stream  
+- Detect and track individuals throughout the video  
+- Assign unique, persistent IDs to each person using YOLOv8 (object detection) + DeepSORT (multi-object tracking)  
+- Follow individuals consistently across frames, even in crowded environments  
+
+---
+
+## 🚀 Workflow
 
 The app provides an intuitive workflow:
 
-Scan Mode – Analyze the first few frames of a video to automatically detect and collect all person IDs.
+1. **Scan Mode** – Analyze the first few frames of a video to automatically detect and collect all person IDs.  
+2. **Selection Mode** – Choose to track all detected individuals or focus on a single person by selecting their ID.  
+3. **Tracking Mode** – Process the entire video, overlay bounding boxes and IDs, and save the annotated output.  
 
-Selection Mode – Choose to track all detected individuals or focus on a single person by selecting their ID.
+---
 
-Tracking Mode – Process the entire video, overlay bounding boxes and IDs, and save the annotated output.
+## 🎨 Features
 
-With a modern custom-designed Streamlit interface, the app includes progress indicators, real-time previews, and session controls for a smooth user experience.
+- Modern custom-designed **Streamlit interface**  
+- Progress indicators and real-time previews  
+- Session controls for a smooth user experience  
+
+---
+
+## 🔧 Use Cases
 
 This tool is useful for:
 
-🎥 Video analytics – Tracking individuals in recorded surveillance or CCTV footage.
+- 🎥 **Video analytics** – Tracking individuals in recorded surveillance or CCTV footage  
+- 🧪 **Research and experiments** – Computer vision projects requiring person re-identification  
+- 🎓 **Education** – Demonstrating the practical integration of deep learning models in real-world tracking tasks  
+- ⚙️ **Prototyping** – Building blocks for larger intelligent video analysis systems  
 
-🧪 Research and experiments – Computer vision projects requiring person re-identification.
+---
 
-🎓 Education – Demonstrating the practical integration of deep learning models in real-world tracking tasks.
+## ⚡ Model Information
 
-⚙️ Prototyping – Building blocks for larger intelligent video analysis systems.
-
-By default, the application uses yolov8n.pt, a lightweight model optimized for CPU-based systems, ensuring broad compatibility. On GPU-enabled platforms, larger models (yolov8s, yolov8m, etc.) can be used for higher accuracy.
+- By default, the application uses **`yolov8n.pt`**, a lightweight model optimized for **CPU-based systems**, ensuring broad compatibility.  
+- On **GPU-enabled platforms**, larger models (`yolov8s`, `yolov8m`, etc.) can be used for **higher accuracy**.  
 
 
 ✨ Features
